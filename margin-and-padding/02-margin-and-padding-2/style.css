@@ -6,11 +6,12 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 100px;
+  margin: 16px auto;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 16px auto;
 }
 
 .content {
