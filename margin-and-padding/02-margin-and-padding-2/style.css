@@ -13,13 +13,12 @@ body {
   background: #e3f4ff;
   padding:5px;
   margin: 16px 16px 16px 16px;
-  border:10px;
-  border-color:white;
+  border:10px white;
 }
 
 .content {
   background: #e3f4ff;
-  border:10px;
+  border:solid;
   border-colr:white;
 }
 
