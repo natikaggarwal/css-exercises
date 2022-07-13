@@ -13,13 +13,13 @@ body {
   background: #e3f4ff;
   padding:5px;
   margin: 16px 16px 16px 16px;
-  border:10px white;
+  border:solid white;
 }
 
 .content {
   background: #e3f4ff;
-  border:solid;
-  border-colr:white;
+  border:solid white;
+  
 }
 
 .button-container {
