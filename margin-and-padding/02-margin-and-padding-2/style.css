@@ -10,31 +10,40 @@ body {
 }
 
 .title {
-  background: #e3f4ff;
-  padding:5px;
-  margin: 16px auto;
-  border:10px solid white;
+     font-family: sans-serif;
+    background: #e3f4ff;
+    padding: 5px;
+    border: 10px solid white;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .content {
-  background: #e3f4ff;
-  padding:5px;
-  border:10px solid white;
+     font-family: sans-serif;
+    background: #e3f4ff;
+    padding: 5px;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
   
 }
 
 .button-container {
-  text-align:center;
-  padding:5px;
-  border:10px solid white;
-  background: #e3f4ff;
+    font-family: sans-serif;
+    FONT-VARIANT: JIS04;
+    text-align: center;
+    padding: 5px;
+    border: 10px solid white;
+    background: #e3f4ff;
+    border-top: 0px;;
 }
 
 button {
-  padding:5px;
-  border:10px solid white;
-  background: white;
-  border: 1px solid #eee;
-  display:block;
-  display:flex;
+      padding: 5px;
+    background: white;
+    border: 1px solid #eee;
+    display: block;
+    margin-left: 140px;
 }
+
+
