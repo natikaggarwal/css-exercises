@@ -13,11 +13,14 @@ body {
   background: #e3f4ff;
   padding:5px;
   margin: 16px 16px 16px 16px;
-  margin-top:20px;
+  border:10px;
+  border-color:white;
 }
 
 .content {
   background: #e3f4ff;
+  border:10px;
+  border-colr:white;
 }
 
 .button-container {
