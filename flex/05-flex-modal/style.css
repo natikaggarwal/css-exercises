@@ -6,13 +6,17 @@ html, body {
 
 body {
   font-family: Roboto, sans-serif;
-  margin: 0;
+  margin: 0px;
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
+  
+}
+.header{
+  font-weight: bolder;
 }
 
 .modal {
@@ -20,6 +24,16 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display:flex;
+  gap:20px;
+  justify-content: center;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
 }
 
 .icon {
@@ -33,9 +47,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
+  margin:5px;
 }
 
+
+.buttons{
+  display: flex;
+  gap:10px;
+}
 .close-button {
+  margin:5px;
   background: #eee;
   border-radius: 50%;
   color: #888;
@@ -46,6 +68,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
 }
 
 button {
